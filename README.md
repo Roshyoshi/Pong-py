@@ -1,4 +1,8 @@
-A simple one player pong game that pits you against an neural network trained for pong. Trained using the NEAT algorithm, which is optimal for creating game AI. 
+A simple one player pong game that pits you against an neural network trained for pong. Trained using the NEAT algorithm, which is optimal for creating game AI.
+
+# How to play
+- W to move up.
+- S to move down.
 
 # How to train
 The model comes pretrained. However for whatever reason if you would like to retrain the model for whatever reason, simply uncomment line 276  [run_neat(config)] and comment line 275 [main(config)] which will ensure that rather than playing a game with the best neural network, you will instead train a new neural network.
