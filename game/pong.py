@@ -1,8 +1,8 @@
-from paddle import *
-from ball import *
+from .paddle import *
+from .ball import *
 import pygame as pg
-from os import sleep 
-
+from time import sleep 
+import neat
 class PongGame:
     def __init__(self, width, height):
         pg.display.set_caption("AI Pong")
