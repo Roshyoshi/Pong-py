@@ -5,8 +5,7 @@ A simple one player pong game that pits you against an neural network trained fo
 - S to move down.
 
 # How to train
-The model comes pretrained. However for whatever reason if you would like to retrain the model for whatever reason, simply uncomment line 276  [run_neat(config)] and comment line 275 [main(config)] which will ensure that rather than playing a game with the best neural network, you will instead train a new neural network.
-
+The model comes pretrained. However for whatever reason if you would like to retrain the model for whatever reason, simply press anything other than 1 on the first prompt.
 # How Training Works
 Uses a simple pong game made using the py-game library as its framework for training. 
 
